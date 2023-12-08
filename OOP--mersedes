@@ -1,0 +1,57 @@
+// Main
+public class Main {
+    public static void main(String[] args) {
+        Mersedes mersedes=new Mersedes();
+        mersedes.setName("E_klass");
+        mersedes.setGin(15000);
+        mersedes.setTaretiv(1999);
+        System.out.println(mersedes.getGin());
+        ;
+    }
+}
+----------------------------------------------------------------------Mersedes klass
+public class Mersedes {
+    private String name;
+    private int taretiv;
+    private int gin;
+
+
+    public Mersedes() {
+
+
+    }
+
+    public Mersedes(int taretiv, String name) {
+        this.name = name;
+        this.taretiv = taretiv;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setGin(int gin) {
+        this.gin=gin;
+    }
+
+     public void setTaretiv(int taretiv) {
+        this.taretiv=taretiv;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
+
+    public int getTaretiv() {
+        return taretiv;
+    }
+ int getGin(){return gin+10;}
+}
+
+
+
+
+
+///model tar
